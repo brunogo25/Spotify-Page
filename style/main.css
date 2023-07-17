@@ -1,0 +1,223 @@
+*{padding: 0;
+margin: 0; 
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+background-color: black;
+display: flex;
+justify-content:space-around;
+padding: 15px;
+align-items: center;
+height: 50px; 
+margin: 0;
+}
+
+.line{
+    transform: rotate(-90deg)
+}
+
+.img-logo{
+    width: 135px;
+    flex-wrap: wrap;
+}
+
+.menu {
+    list-style: none; 
+    text-decoration:none ; 
+    display: flex; 
+    gap: 35px;
+    color: white;
+}
+
+.blue{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(29, 117, 222); 
+    width: 100%;
+    height: 480px;
+}
+
+.title-month{
+    color:white; 
+    width: 100%;
+    margin-top: 110px;
+    margin-left: 190px ;
+    margin-bottom: 48px;
+}
+
+.title-get {
+    width: 100%; 
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.title-after{
+    margin-top: 40px;
+    height: 30px; 
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.divBut{
+    padding-top: 45px;
+}
+
+
+.start-button {
+    box-sizing: border-box;
+    border: 2px solid rgb(25, 20, 20);
+    border-radius: 500px;
+    padding-block: 15px;
+    padding-inline: 32px;
+    background-color:black;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+    
+}
+
+.plans-button {
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 500px;
+    padding-block: 15px;
+    padding-inline: 32px;
+    background-color:transparent;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.start-button:hover{
+    border-radius: 700px;
+    padding-block: 18px;
+    padding-inline: 35px;
+}
+
+.plans-button:hover{
+    border-radius: 700px;
+    padding-block: 18px;
+    padding-inline: 35px;
+}
+
+.termsLink{
+    color: white;
+}
+
+.termsCondition{
+    padding-top: 60px;
+    font-size: 10px;
+}
+
+.menu a{
+    color: white; 
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: green;
+}
+
+.premium-section{
+    display: flex;
+    justify-content: center; 
+    gap:0px;
+       
+}
+
+.premium-section article{
+    width: 20%;
+}
+
+.title-premium{
+    text-align: center; 
+    margin: 75px;
+    font-size: 38px;
+}
+
+
+
+.text-info{
+    text-align: center; 
+    margin: 0px;
+}
+
+.img-section{
+    width: 140px;
+    justify-content: center;
+    padding:25%;
+}
+
+.paf{
+    margin-top: 10px;
+    text-align: center;
+}
+.div{
+    display: flex;
+}
+
+
+.menuBur{
+    width:50px;
+   color: white;
+}
+
+.divBut2{
+    padding-top: 205px;
+}
+
+.premium-select{
+    background-color: rgb(237, 237, 237);
+    width:100%;
+    height: 800px;
+    display: block;
+    margin: auto;
+
+}
+
+.title-premiumSelect{
+    padding-top: 70px;
+    text-align: center; 
+    margin: 15px;
+    font-size: 38px;
+}
+
+.title-listen{
+    text-align: center;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 20;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(4);
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.box{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    margin-left: 50px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
+.oneMonthBox{
+    border-radius: 4px;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 0px 4px 10px 0px;
+    margin-block: 0px 10px;
+    color: white;
+    background-color: rgb(13, 114, 234);
+}

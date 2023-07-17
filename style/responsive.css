@@ -1,0 +1,9 @@
+@media (max-width: 480px){.menu
+    {display: none;} .premium-section {flex-direction: column;} .premium-section article {display:flex; width: 100%; align-items: center;} } 
+
+
+
+    
+@media (max-width:791px){.menu {display: none}}
+
+@media(min-width: 791px){.menuBur {display:none}}
